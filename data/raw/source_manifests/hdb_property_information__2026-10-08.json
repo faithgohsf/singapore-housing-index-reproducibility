@@ -1,0 +1,17 @@
+{
+  "dataset_id": "d_17f5382f26140b1fdae0ba2ef6239d2f",
+  "name": "HDB Property Information",
+  "agency": "Housing & Development Board",
+  "created_at": "2018-07-09T15:05:27+08:00",
+  "last_updated_at": "2026-10-08T10:40:09+08:00",
+  "coverage_start": "1937-01-01T08:00:00+08:00",
+  "coverage_end": "2025-12-31T23:59:59+08:00",
+  "format": "CSV",
+  "dataset_size_bytes_metadata": 961857,
+  "retrieved_at_sgt": "2026-10-16T01:09:33.027480+08:00",
+  "download_path": "data/raw/hdb_property_information__2026-10-08.csv",
+  "download_size_bytes": 948464,
+  "sha256": "d528ea2d6fc3f57ab4c8199ed15ea5eaac0109fe659e09ef91910dfe417af2eb",
+  "download_method": "data.gov.sg dataset download API initiate-download, current live dataset version",
+  "license": "Singapore Open Data Licence; upstream redistribution conditions must be retained"
+}

@@ -1,0 +1,37 @@
+{
+  "query": "2 QUEEN'S ROAD",
+  "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=2+QUEEN%27S+ROAD&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "http_status": 200,
+  "body": {
+    "error": "Authentication token missing. Please create an account and generate or renew your API Token.",
+    "found": 2,
+    "totalNumPages": 1,
+    "pageNum": 1,
+    "results": [
+      {
+        "SEARCHVAL": "2 QUEEN'S ROAD SINGAPORE 266733",
+        "BLK_NO": "2",
+        "ROAD_NAME": "QUEEN'S ROAD",
+        "BUILDING": "NIL",
+        "ADDRESS": "2 QUEEN'S ROAD SINGAPORE 266733",
+        "POSTAL": "266733",
+        "X": "25518.77925478015",
+        "Y": "33894.12690963969",
+        "LATITUDE": "1.322800863462679",
+        "LONGITUDE": "103.8110234926278"
+      },
+      {
+        "SEARCHVAL": "FARRER GARDENS",
+        "BLK_NO": "2",
+        "ROAD_NAME": "QUEEN'S ROAD",
+        "BUILDING": "FARRER GARDENS",
+        "ADDRESS": "2 QUEEN'S ROAD FARRER GARDENS SINGAPORE 260002",
+        "POSTAL": "260002",
+        "X": "25100.24111266527",
+        "Y": "33339.64783699438",
+        "LATITUDE": "1.317786314337136",
+        "LONGITUDE": "103.8072627575644"
+      }
+    ]
+  }
+}

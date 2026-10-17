@@ -1,0 +1,33 @@
+{
+  "reference_version": "verified-2026-10-17",
+  "inputs": [
+    {
+      "path": "data/raw/hdb_property_information__2026-10-08.csv",
+      "sha256": "d528ea2d6fc3f57ab4c8199ed15ea5eaac0109fe659e09ef91910dfe417af2eb",
+      "bytes": 948464
+    },
+    {
+      "path": "data/raw/hdb_rental_approval__retrieved_2026-10-16.csv",
+      "sha256": "767a94819f4bb96bc4cff411064bedf6bef63ed053c05de1e2b560b65d85b1c9",
+      "bytes": 10439845
+    },
+    {
+      "path": "data/raw/hdb_resale_flat_prices__retrieved_2026-10-16.csv",
+      "sha256": "248694f3cf7cc07e7e166b8eab3c5ebe3b18c39f76156282a6f618137fa49dc8",
+      "bytes": 24010600
+    },
+    {
+      "path": "data/raw/mendeley_shi_dataset_v1__data_in_brief.csv",
+      "sha256": "afd2999803e4677629aa34844162160a441f54c0acc5baf72ec37a23bc2ff1d9",
+      "bytes": 4830181
+    },
+    {
+      "path": "outputs/tables/one_map_coordinates__2026-10-16.csv",
+      "sha256": "fa7064a4b078165c7c4a1a5aabeaa14f89c9e4c0ec68ba752661ead9d1a741dd",
+      "bytes": 1913525
+    }
+  ],
+  "source_urls": "See source manifests; exact archived snapshots are required, current downloads may differ.",
+  "public_archive_url": null,
+  "public_doi": null
+}

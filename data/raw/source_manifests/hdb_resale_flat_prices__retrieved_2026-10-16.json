@@ -1,0 +1,11 @@
+{
+  "dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
+  "source_url": "https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view",
+  "retrieval_date": "2026-10-16",
+  "retrieved_at_local": "2026-10-16T01:21:50.393208+08:00",
+  "api_status": "DOWNLOAD_SUCCESS",
+  "filename": "hdb_resale_flat_prices__retrieved_2026-10-16.csv",
+  "bytes": 24010600,
+  "sha256": "248694f3cf7cc07e7e166b8eab3c5ebe3b18c39f76156282a6f618137fa49dc8",
+  "redistribution": "Source is public; verify field-specific licence terms before release."
+}

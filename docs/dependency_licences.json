@@ -1,0 +1,107 @@
+[
+  {
+    "package": "pandas",
+    "installed_version": "3.0.3",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+      "pandas-3.0.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "package": "numpy",
+    "installed_version": "2.4.6",
+    "licence_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_classifiers": [],
+    "licence_files": [
+      "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+      "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE"
+    ]
+  },
+  {
+    "package": "requests",
+    "installed_version": "2.34.2",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "licence_files": [
+      "requests-2.34.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "package": "pytest",
+    "installed_version": "9.0.3",
+    "licence_expression": "MIT",
+    "license_classifiers": [],
+    "licence_files": [
+      "pytest-9.0.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "package": "scipy",
+    "installed_version": "1.18.0",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+      "scipy-1.18.0.dist-info/LICENSE.txt",
+      "scipy/_lib/_uarray/LICENSE"
+    ]
+  },
+  {
+    "package": "statsmodels",
+    "installed_version": "0.14.6",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+      "statsmodels-0.14.6.dist-info/licenses/LICENSE.txt",
+      "statsmodels/LICENSE.txt",
+      "statsmodels/stats/libqsturng/LICENSE.txt"
+    ]
+  },
+  {
+    "package": "scikit-learn",
+    "installed_version": "1.9.0",
+    "licence_expression": "BSD-3-Clause",
+    "license_classifiers": [],
+    "licence_files": [
+      "scikit_learn-1.9.0.dist-info/licenses/COPYING",
+      "sklearn/externals/array_api_compat/LICENSE",
+      "sklearn/externals/array_api_extra/LICENSE"
+    ]
+  },
+  {
+    "package": "patsy",
+    "installed_version": "1.0.2",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+      "patsy-1.0.2.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "package": "matplotlib",
+    "installed_version": "3.11.0",
+    "licence_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Python Software Foundation License"
+    ],
+    "licence_files": [
+      "matplotlib-3.11.0.dist-info/LICENSE"
+    ]
+  }
+]

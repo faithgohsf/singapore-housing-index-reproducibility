@@ -1,0 +1,33 @@
+{
+  "api_endpoint": "https://data.mendeley.com/api/datasets/pj3dkvskr9/files",
+  "retrieved_at_sgt": "2026-10-16T01:10:29.319754+08:00",
+  "files": [
+    {
+      "filename": "data in brief.csv",
+      "id": "024512ae-b18d-4a78-aa43-cb96c8b3c630",
+      "size": 4830181,
+      "last_modified_date": "2021-03-23T07:42:39.372Z",
+      "status": "COMPLETED",
+      "sha256_hash": "afd2999803e4677629aa34844162160a441f54c0acc5baf72ec37a23bc2ff1d9",
+      "content_type": "application/vnd.ms-excel",
+      "created_date": "2021-03-23T07:42:39.372Z",
+      "saved_path": "data/raw/mendeley_shi_dataset_v1__data_in_brief.csv",
+      "downloaded_sha256": "afd2999803e4677629aa34844162160a441f54c0acc5baf72ec37a23bc2ff1d9",
+      "retrieved_at_sgt": "2026-10-16T01:10:29.319481+08:00",
+      "dataset_version_doi": "10.17632/pj3dkvskr9.1",
+      "dataset_title": "Singapore \u201chousing-index\u201d dataset - building-level marker of socioeconomic status",
+      "publication_date": "2021-03-23",
+      "provenance_status": "public dataset v1; protocol describes a 2020 update; equivalence to paper original 2018 file must be verified from data contents and reference dates"
+    },
+    {
+      "filename": "Table 1.docx",
+      "id": "713926ad-386a-4315-a28f-1fadaf34bfff",
+      "size": 17851,
+      "last_modified_date": "2021-03-23T07:42:40.223Z",
+      "status": "COMPLETED",
+      "sha256_hash": "fd7ad639714565f397618548da1584bbccc70308ae5f0e27d4742fe2628402d5",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "created_date": "2021-03-23T07:42:40.223Z"
+    }
+  ]
+}

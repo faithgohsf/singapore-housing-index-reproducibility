@@ -1,0 +1,37 @@
+{
+  "query": "327B ANCHORVALE ROAD",
+  "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=327B+ANCHORVALE+ROAD&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "http_status": 200,
+  "body": {
+    "error": "Authentication token missing. Please create an account and generate or renew your API Token.",
+    "found": 2,
+    "totalNumPages": 1,
+    "pageNum": 1,
+    "results": [
+      {
+        "SEARCHVAL": "ANCHORVALE HORIZON",
+        "BLK_NO": "327B",
+        "ROAD_NAME": "ANCHORVALE ROAD",
+        "BUILDING": "ANCHORVALE HORIZON",
+        "ADDRESS": "327B ANCHORVALE ROAD ANCHORVALE HORIZON SINGAPORE 542327",
+        "POSTAL": "542327",
+        "X": "34155.79147984926",
+        "Y": "41949.13399445452",
+        "LATITUDE": "1.395646923964713",
+        "LONGITUDE": "103.8886332854237"
+      },
+      {
+        "SEARCHVAL": "BUSY BEES",
+        "BLK_NO": "327B",
+        "ROAD_NAME": "ANCHORVALE ROAD",
+        "BUILDING": "BUSY BEES",
+        "ADDRESS": "327B ANCHORVALE ROAD BUSY BEES",
+        "POSTAL": "NIL",
+        "X": "34155.79238788877",
+        "Y": "41949.13399445452",
+        "LATITUDE": "1.39564692396452",
+        "LONGITUDE": "103.8886332935832"
+      }
+    ]
+  }
+}

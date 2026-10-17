@@ -1,0 +1,49 @@
+{
+  "query": "106 TOWNER ROAD",
+  "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=106+TOWNER+ROAD&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "http_status": 200,
+  "body": {
+    "error": "Authentication token missing. Please create an account and generate or renew your API Token.",
+    "found": 3,
+    "totalNumPages": 1,
+    "pageNum": 1,
+    "results": [
+      {
+        "SEARCHVAL": "106 TOWNER ROAD SINGAPORE 322106",
+        "BLK_NO": "106",
+        "ROAD_NAME": "TOWNER ROAD",
+        "BUILDING": "NIL",
+        "ADDRESS": "106 TOWNER ROAD SINGAPORE 322106",
+        "POSTAL": "322106",
+        "X": "31080.42712940276",
+        "Y": "33697.21524235606",
+        "LATITUDE": "1.321020009915332",
+        "LONGITUDE": "103.8609978331371"
+      },
+      {
+        "SEARCHVAL": "PCF SPARKLETOTS PRESCHOOL @ WHAMPOA BLK 106 (KN)",
+        "BLK_NO": "106",
+        "ROAD_NAME": "TOWNER ROAD",
+        "BUILDING": "PCF SPARKLETOTS PRESCHOOL @ WHAMPOA BLK 106 (KN)",
+        "ADDRESS": "106 TOWNER ROAD PCF SPARKLETOTS PRESCHOOL @ WHAMPOA BLK 106 (KN)",
+        "POSTAL": "NIL",
+        "X": "31080.4276136905",
+        "Y": "33697.21551476792",
+        "LATITUDE": "1.321020012378879",
+        "LONGITUDE": "103.8609978374888"
+      },
+      {
+        "SEARCHVAL": "TOWNERVILLE",
+        "BLK_NO": "106",
+        "ROAD_NAME": "TOWNER ROAD",
+        "BUILDING": "TOWNERVILLE",
+        "ADDRESS": "106 TOWNER ROAD TOWNERVILLE SINGAPORE 327828",
+        "POSTAL": "327828",
+        "X": "30799.78205142822",
+        "Y": "33619.47937210277",
+        "LATITUDE": "1.320317021214578",
+        "LONGITUDE": "103.8584760829657"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "prepared_cases": 30,
+  "number_buildings_reviewed": 30,
+  "number_confirmed_as_hdb_by_reviewer": 30,
+  "number_identified_as_non_hdb_by_reviewer": 0,
+  "number_unable_to_determine": 0,
+  "number_awaiting_review": 0,
+  "agreement_comparison_denominator": 30,
+  "number_agreements": 30,
+  "number_discrepancies": 0,
+  "agreement_proportion_among_comparable_responses": 1.0,
+  "number_cases_requiring_follow_up_including_pending": 0,
+  "number_saved_location_ambiguities_for_follow_up": 0,
+  "number_original_saved_location_flags": 7,
+  "number_documented_location_resolutions": 7,
+  "dataset_corrections_applied": 0,
+  "scope": "Single-reviewer targeted housing-classification audit using Street View and supplementary property websites as reported by the reviewer. Responses are recorded human assessments, not independent proof of image inspection. Agreement is not nationwide accuracy, address-linkage validation, SHI validation or verification of internal flat composition."
+}

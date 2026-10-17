@@ -1,0 +1,37 @@
+{
+  "query": "102 TOWNER ROAD",
+  "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=102+TOWNER+ROAD&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "http_status": 200,
+  "body": {
+    "error": "Authentication token missing. Please create an account and generate or renew your API Token.",
+    "found": 2,
+    "totalNumPages": 1,
+    "pageNum": 1,
+    "results": [
+      {
+        "SEARCHVAL": "102 TOWNER ROAD SINGAPORE 322102",
+        "BLK_NO": "102",
+        "ROAD_NAME": "TOWNER ROAD",
+        "BUILDING": "NIL",
+        "ADDRESS": "102 TOWNER ROAD SINGAPORE 322102",
+        "POSTAL": "322102",
+        "X": "31192.18321451079",
+        "Y": "33649.23637171835",
+        "LATITUDE": "1.320586094569071",
+        "LONGITUDE": "103.8620020151442"
+      },
+      {
+        "SEARCHVAL": "TOWNERVILLE",
+        "BLK_NO": "102",
+        "ROAD_NAME": "TOWNER ROAD",
+        "BUILDING": "TOWNERVILLE",
+        "ADDRESS": "102 TOWNER ROAD TOWNERVILLE SINGAPORE 327826",
+        "POSTAL": "327826",
+        "X": "30807.85285794642",
+        "Y": "33612.00166672654",
+        "LATITUDE": "1.3202493947576",
+        "LONGITUDE": "103.858548602691"
+      }
+    ]
+  }
+}

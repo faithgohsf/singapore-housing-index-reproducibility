@@ -1,0 +1,37 @@
+{
+  "query": "460 TAMPINES STREET 42",
+  "url": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=460+TAMPINES+STREET+42&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "http_status": 200,
+  "body": {
+    "error": "Authentication token missing. Please create an account and generate or renew your API Token.",
+    "found": 2,
+    "totalNumPages": 1,
+    "pageNum": 1,
+    "results": [
+      {
+        "SEARCHVAL": "460 TAMPINES STREET 42 SINGAPORE 520460",
+        "BLK_NO": "460",
+        "ROAD_NAME": "TAMPINES STREET 42",
+        "BUILDING": "NIL",
+        "ADDRESS": "460 TAMPINES STREET 42 SINGAPORE 520460",
+        "POSTAL": "520460",
+        "X": "41542.44933958817",
+        "Y": "37819.67049393058",
+        "LATITUDE": "1.358299105030539",
+        "LONGITUDE": "103.9550063437827"
+      },
+      {
+        "SEARCHVAL": "BRIGHT JUNIORS PTE LTD",
+        "BLK_NO": "460",
+        "ROAD_NAME": "TAMPINES STREET 42",
+        "BUILDING": "BRIGHT JUNIORS PTE LTD",
+        "ADDRESS": "460 TAMPINES STREET 42 BRIGHT JUNIORS PTE LTD",
+        "POSTAL": "NIL",
+        "X": "41542.44531394634",
+        "Y": "37819.66919240728",
+        "LATITUDE": "1.358299093261885",
+        "LONGITUDE": "103.9550063076091"
+      }
+    ]
+  }
+}

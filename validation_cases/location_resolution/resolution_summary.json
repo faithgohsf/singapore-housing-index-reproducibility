@@ -1,0 +1,11 @@
+{
+  "cases_examined": 7,
+  "housing_classification_unresolved": 0,
+  "documented_address_point_resolutions": 7,
+  "remaining_location_unresolved": 0,
+  "frozen_analysis_coordinates_changed": false,
+  "shi_or_historical_score_corrections": 0,
+  "analysis_policy": "Post-analysis evidence addendum, not retrospective modification of frozen coordinate eligibility or historical-score selection. Resolved points are provider address points, not surveyed building centroids or verified panorama locations.",
+  "OneMap_access": "HTTP 200 responses included results and a missing-token warning. No successful authenticated API access is claimed. All returned candidates and warning retained; no token saved.",
+  "reviewer_evidence_scope": "Reviewer confirms supplementary property-site use including PropertyGuru at study level. No case-specific imagery/site-use dates or URLs are fabricated."
+}
