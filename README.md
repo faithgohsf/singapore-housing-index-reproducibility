@@ -1,5 +1,7 @@
 # Singapore Housing Index reproducibility release candidate
 
+**Authoritative SHI research repository.** Use this repository for all future code and reproducibility updates. The private `singapore-housing-index-validation` repository is a redundant README-only scaffold retained for history. See [repository authority and comparison](docs/REPOSITORY_AUTHORITY.md). Both repositories remain private; no public release is authorised.
+
 Version 0.1.0-rc.2. This is a standalone candidate repository, separate from the development workspace. Original project code is MIT licensed by user approval on 17 October 2026. No public software release or Zenodo DOI exists yet. Do not describe this candidate as a published repository.
 
 ## Setup
