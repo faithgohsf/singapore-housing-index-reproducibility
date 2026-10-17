@@ -16,7 +16,13 @@ python -m pytest -q --ignore=tests/test_release_artifacts.py
 
 ## Exact frozen-input reproduction
 
-Extract the separate `SHI_Frozen_Inputs__0.1.0-rc.2.zip` into this repository root. It contains the exact HDB inputs and saved OneMap address/coordinate responses, with attribution and checksums. Obtain the Mendeley v1 CSV from DOI 10.17632/pj3dkvskr9.1, save it to the path in frozen_inputs.json and verify its checksum. This mixed-source file is not bundled; see THIRD_PARTY_DATA.md. A current download with a different checksum cannot substitute for the archived input. No public archive URL or DOI has been issued. The included archive is checksum-pinned and needs no Desktop-folder access.
+Extract the included `inputs/SHI_Frozen_Inputs__0.1.0-rc.1.zip` into this repository root:
+
+```bash
+python -m zipfile -e inputs/SHI_Frozen_Inputs__0.1.0-rc.1.zip .
+```
+
+ It contains the exact HDB inputs and saved OneMap address/coordinate responses, with attribution and checksums. Obtain the Mendeley v1 CSV from DOI 10.17632/pj3dkvskr9.1, save it to the path in frozen_inputs.json and verify its checksum. This mixed-source file is not bundled; see THIRD_PARTY_DATA.md. A current download with a different checksum cannot substitute for the archived input. No public archive URL or DOI has been issued. The included archive is checksum-pinned and needs no Desktop-folder access.
 ```bash
 python scripts/retrieve_public_data.py  # obtains missing Mendeley source; existing HDB snapshots are preserved
 python scripts/run_pipeline.py --profile reproducibility
@@ -32,7 +38,7 @@ The staged coordinate file avoids new API calls. Only a coordinate refresh needs
 
 `release_data/` contains an HDB-only building-composition/SHI dataset, a distinct historical postal crosswalk, dictionary and source manifest. Leading-zero postal strings must be read as text (`dtype=str` for postal fields). These files do not include OneMap coordinate-return fields. Missing market records do not indicate absence of activity. Building coverage is not resident coverage. SHI is not individual income, deprivation or validated socioeconomic confounding control.
 
-Large raw/transaction datasets, predictions, reviewer identities/keys, private notes, full-text articles and personal environment files are excluded. The pipeline recreates analytical outputs after authorised input staging. Data terms and attribution are in `THIRD_PARTY_DATA.md`; the MIT code licence is in `LICENSE`. No original-2018-comparator recovery is claimed.
+The compressed input archive contains the permitted frozen HDB source rows and saved OneMap coordinates. Raw mixed-source Mendeley data, model predictions, reviewer identities, private notes, full-text articles and personal environment files are excluded. The pipeline recreates analytical outputs after authorised input staging. Data terms and attribution are in `THIRD_PARTY_DATA.md`; the MIT code licence is in `LICENSE`. No original-2018-comparator recovery is claimed.
 
 The curated literature seed is a structured evidence map with unresolved records, not a complete systematic review. Source metadata and classifications are included; full-text bodies and long excerpts are omitted. Exact snapshot verification and independent portability checks are recorded outside this release in the study verification report.
 
@@ -42,7 +48,7 @@ After the pipeline, run `python scripts/verify_reference_results.py`. It compare
 
 `docs/address_validation_protocol.md`, `validation_cases/prepared_cases.csv` and `validation_cases/validation_status.json` document the 30 prepared cases and their completed single-reviewer HDB classification responses. Run `python scripts/audit_address_validation.py` for the supplied completed coded-response record, or provide `--reviews` for a completed five-column HDB audit form. The script audits documented fields; it does not inspect imagery. No proposed-match key, reviewer identity or image is included.
 
-The GitHub Actions workflow is configured for synthetic/procedural tests only and has not been run on GitHub. Full-output tests and manuscript-number checks require authorised frozen inputs and the local reproduction pipeline. GitHub/Zenodo publication and persistent exact-input archive links remain pending. See docs/private_release_and_zenodo.md. Do not replace the original-method DOI with this candidate's unassigned software identifier.
+The GitHub Actions workflow is configured for procedural tests only; full model reproduction is a separate recorded check. Full-output tests and manuscript-number checks require authorised frozen inputs and the local reproduction pipeline. GitHub/Zenodo publication and persistent exact-input archive links remain pending. See docs/private_release_and_zenodo.md. Do not replace the original-method DOI with this candidate's unassigned software identifier.
 
 
 ## Single-reviewer HDB visual audit
