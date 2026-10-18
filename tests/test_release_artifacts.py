@@ -51,3 +51,12 @@ def test_evidence_map_csv_is_parseable_and_screening_limits_are_explicit():
     assert evidence.loc[uncertain, "classification"].eq("Uncertain; full text not assessed").all()
     direct = evidence["screening_category"].eq("direct_shi_application")
     assert evidence.loc[direct, "fulltext_snapshot"].notna().all()
+
+
+def test_completed_review_case_ids_are_not_reassigned_after_reconstruction():
+    options = [ROOT.parent / "Validation/Address_Review/backend/HDB_Visual_Audit_Backend.csv",
+               ROOT / "validation_cases/backend/HDB_Visual_Audit_Backend.csv"]
+    backend = next(p for p in options if p.is_file())
+    frozen = pd.read_csv(backend).set_index("case_id").building_id.sort_index()
+    generated = pd.read_csv(TABLES / "address_review_proposed_match_key__30.csv").set_index("case_id").building_id.sort_index()
+    assert frozen.equals(generated)

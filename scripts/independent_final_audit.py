@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TABLES = ROOT / "outputs" / "tables"
 WEIGHTS = {
     "1room_sold": 1, "2room_sold": 2, "3room_sold": 3,
-    "4room_sold": 4, "5room_sold": 5, "exec_sold": 5,
+    "4room_sold": 4, "5room_sold": 5, "exec_sold": 6,
     "multigen_sold": 6, "studio_apartment_sold": 1,
     "1room_rental": 1, "2room_rental": 2, "3room_rental": 3,
     "other_room_rental": 4,

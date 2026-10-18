@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import argparse
 import os
 import pathlib
 import sys
@@ -25,6 +26,9 @@ def json_safe(value):
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--executive-weight", type=int, choices=[5, 6], default=6, help="6 is published-definition primary; 5 reproduces superseded sensitivity")
+    args = parser.parse_args()
     raw = PROJECT / "data" / "raw"
     out = PROJECT / "outputs" / "tables"
     out.mkdir(parents=True, exist_ok=True)
@@ -36,8 +40,8 @@ def main() -> None:
     historical = pd.read_csv(historical_path, dtype="string", keep_default_na=False)
 
     buildings, source_counts = build_hdb_buildings(properties)
-    current = compute_shi(buildings, "recommended")
-    legacy = compute_shi(buildings, "legacy_2021")
+    current = compute_shi(buildings, "recommended" if args.executive_weight == 6 else "executive_weight_5")
+    legacy = compute_shi(buildings, "legacy_2021" if args.executive_weight == 6 else "legacy_2021_executive_weight_5")
     formula = current[["building_id", "address_key", "shi", "shi_status"]].merge(
         legacy[["building_id", "shi"]].rename(columns={"shi": "shi_legacy_2021"}),
         on="building_id", validate="one_to_one",
@@ -46,7 +50,7 @@ def main() -> None:
     valid_formula = formula.dropna(subset=["formula_difference"])
     formula_summary = {
         "formula_comparison_same_current_input": True,
-        "formula_versions": ["recommended", "legacy_2021"],
+        "formula_versions": [str(current.shi_formula.iloc[0]), str(legacy.shi_formula.iloc[0])],
         "valid_buildings": int(len(valid_formula)),
         "buildings_with_different_scores": int(valid_formula["formula_difference"].ne(0).sum()),
         "mean_absolute_score_change": float(valid_formula["formula_difference"].abs().mean()),
@@ -87,6 +91,7 @@ def main() -> None:
 
     score_valid = current.loc[current["shi_status"].eq("valid"), "shi"].astype(float)
     summary = {
+        "executive_room_weight": args.executive_weight,
         "current_source_version": "data.gov.sg HDB Property Information, last updated 2026-10-08",
         "current_source_retrieval_manifest": "data/raw/source_manifests/hdb_property_information__2026-10-08.json",
         "historical_candidate": "Mendeley Data v1, DOI 10.17632/pj3dkvskr9.1, selected public historical SHI dataset; public file data in brief.csv",

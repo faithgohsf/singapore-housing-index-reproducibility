@@ -159,6 +159,18 @@ def main() -> None:
         if len(picks) >= 30: break
         if x not in {y for y, _ in picks}: picks.append((x, "largest absolute difference in historical candidate comparison; purposive review"))
     picks = picks[:30]
+    # A completed audit has a fixed sample. Recalculation must not reuse its
+    # case IDs for different buildings after SHI definitions change.
+    backend_options = [ROOT.parent / "Validation/Address_Review/backend/HDB_Visual_Audit_Backend.csv",
+                       ROOT / "validation_cases/backend/HDB_Visual_Audit_Backend.csv"]
+    fixed_backend = next((p for p in backend_options if p.is_file()), None)
+    if fixed_backend is not None:
+        frozen_cases = pd.read_csv(fixed_backend).sort_values("case_id")
+        if not frozen_cases.case_id.is_unique or not frozen_cases.building_id.is_unique:
+            raise ValueError("Frozen review case IDs and building IDs must be unique")
+        if not frozen_cases.building_id.isin(buildings.building_id).all():
+            raise ValueError("Frozen reviewed building missing from reconstructed inventory")
+        picks = list(zip(frozen_cases.building_id, frozen_cases.review_reason))
     selected = pd.DataFrame(picks, columns=["building_id", "review_reason"])
     selected = selected.merge(address, on="building_id", how="left", validate="one_to_one")
     selected = selected.merge(flags, on="building_id", how="left", validate="one_to_one")

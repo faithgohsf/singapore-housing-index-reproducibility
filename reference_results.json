@@ -1,6 +1,6 @@
 {
-  "reference_version": "0.1.0-rc.2",
-  "meaning": "Verified frozen-analysis numeric reference values; completed human housing classifications and post-analysis technical location decisions are reported separately.",
+  "reference_version": "0.1.0-rc.3-executive6",
+  "meaning": "Corrected executive=6 frozen-analysis numeric regression values; independently checked saved predictions/building arithmetic; previous executive=5 references retained in archive.",
   "checks": [
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -110,12 +110,12 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/models/B/mae_sgd",
-      "expected_value": 404.88825953735267
+      "expected_value": 402.26977961512756
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/models/B/weighted_heldout_r2",
-      "expected_value": 0.30883139151992045
+      "expected_value": 0.31620599749311773
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -130,12 +130,12 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/models/D/mae_sgd",
-      "expected_value": 374.78830622727145
+      "expected_value": 374.83364446793155
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/models/D/weighted_heldout_r2",
-      "expected_value": 0.39340491102640485
+      "expected_value": 0.39325141119588214
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -145,37 +145,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/mae_b",
-      "expected_value": 404.88825953735267
+      "expected_value": 402.26977961512756
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/improvement_mae_a_minus_b",
-      "expected_value": 61.26285022427709
+      "expected_value": 63.881330146502194
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/percent_reduction",
-      "expected_value": 13.142272739756933
+      "expected_value": 13.703996152485498
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/improvement_ci95/0",
-      "expected_value": 57.51513146464083
+      "expected_value": 60.060043732007394
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/improvement_ci95/1",
-      "expected_value": 65.33056044337548
+      "expected_value": 68.05770761779334
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/percent_reduction_ci95/0",
-      "expected_value": 12.410967492068847
+      "expected_value": 12.946354992922755
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/0/percent_reduction_ci95/1",
-      "expected_value": 13.930680954325204
+      "expected_value": 14.528144963055562
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -195,37 +195,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/mae_b",
-      "expected_value": 374.78830622727145
+      "expected_value": 374.83364446793155
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/improvement_mae_a_minus_b",
-      "expected_value": 0.08621363263222293
+      "expected_value": 0.04087539197212209
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/percent_reduction",
-      "expected_value": 0.022997997480448198
+      "expected_value": 0.010903753071133735
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/improvement_ci95/0",
-      "expected_value": -0.15072493303102305
+      "expected_value": -0.19012563952679642
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/improvement_ci95/1",
-      "expected_value": 0.32036397454315096
+      "expected_value": 0.2809724610425475
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/percent_reduction_ci95/0",
-      "expected_value": -0.040372259143302384
+      "expected_value": -0.05048083612930481
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/1/percent_reduction_ci95/1",
-      "expected_value": 0.08535523756311478
+      "expected_value": 0.07481990129354317
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -240,7 +240,7 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/mae_a",
-      "expected_value": 404.88825953735267
+      "expected_value": 402.26977961512756
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -250,32 +250,32 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/improvement_mae_a_minus_b",
-      "expected_value": 30.013739677448996
+      "expected_value": 27.39525975522389
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/percent_reduction",
-      "expected_value": 7.412845141952084
+      "expected_value": 6.810170970693935
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/improvement_ci95/0",
-      "expected_value": 27.57434188741811
+      "expected_value": 25.08271748500453
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/improvement_ci95/1",
-      "expected_value": 32.5941042690271
+      "expected_value": 29.726273198797543
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/percent_reduction_ci95/0",
-      "expected_value": 6.840846745152044
+      "expected_value": 6.25985624079987
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental/comparisons/2/percent_reduction_ci95/1",
-      "expected_value": 8.0215355304579
+      "expected_value": 7.358245315393107
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -305,37 +305,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/mae_b",
-      "expected_value": 387.2124953543526
+      "expected_value": 384.27764077910666
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/improvement_mae_a_minus_b",
-      "expected_value": 63.48564056102231
+      "expected_value": 66.42049513626824
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/percent_reduction",
-      "expected_value": 14.086066815448879
+      "expected_value": 14.737246472379388
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/improvement_ci95/0",
-      "expected_value": 59.3506913208542
+      "expected_value": 61.983149335347626
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/improvement_ci95/1",
-      "expected_value": 67.67477696173526
+      "expected_value": 70.86029336237657
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/percent_reduction_ci95/0",
-      "expected_value": 13.254993033080002
+      "expected_value": 13.835169200812716
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_2025/comparison/percent_reduction_ci95/1",
-      "expected_value": 14.919141023246938
+      "expected_value": 15.614161250057956
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -365,37 +365,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/mae_b",
-      "expected_value": 393.55469329121377
+      "expected_value": 391.50099943866013
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/improvement_mae_a_minus_b",
-      "expected_value": 57.03226991333287
+      "expected_value": 59.085963765886504
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/percent_reduction",
-      "expected_value": 12.657328012271568
+      "expected_value": 13.113109919042214
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/improvement_ci95/0",
-      "expected_value": 53.70846196791759
+      "expected_value": 55.54066526554779
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/improvement_ci95/1",
-      "expected_value": 60.60627450929332
+      "expected_value": 62.782813643816006
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/percent_reduction_ci95/0",
-      "expected_value": 11.990040950919187
+      "expected_value": 12.422066108475553
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_min3/comparison/percent_reduction_ci95/1",
-      "expected_value": 13.364145431034519
+      "expected_value": 13.822675425851887
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -425,37 +425,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/mae_b",
-      "expected_value": 390.8529745639401
+      "expected_value": 389.42339288224304
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/improvement_mae_a_minus_b",
-      "expected_value": 54.23238819517974
+      "expected_value": 55.66196987687681
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/percent_reduction",
-      "expected_value": 12.184716176463054
+      "expected_value": 12.505908873709933
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/improvement_ci95/0",
-      "expected_value": 50.79060874142029
+      "expected_value": 52.22146153788272
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/improvement_ci95/1",
-      "expected_value": 57.95306382934206
+      "expected_value": 59.40208008884834
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/percent_reduction_ci95/0",
-      "expected_value": 11.490835865637806
+      "expected_value": 11.79968091346128
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_equal_record_weights/comparison/percent_reduction_ci95/1",
-      "expected_value": 12.928016519425467
+      "expected_value": 13.228932569378628
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -510,37 +510,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/mae_b",
-      "expected_value": 997.6038971251809
+      "expected_value": 991.3911194419643
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/improvement_mae_a_minus_b",
-      "expected_value": 126.6299252104426
+      "expected_value": 132.84270289365918
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/percent_reduction",
-      "expected_value": 11.263664434802878
+      "expected_value": 11.816287702292678
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/improvement_ci95/0",
-      "expected_value": 120.53346003028835
+      "expected_value": 126.58440696507573
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/improvement_ci95/1",
-      "expected_value": 132.72433782038365
+      "expected_value": 139.00652048636073
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/percent_reduction_ci95/0",
-      "expected_value": 10.766307527023491
+      "expected_value": 11.322036217355826
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/rental_sensitivities/sensitivity_spatial_holdout/comparison/percent_reduction_ci95/1",
-      "expected_value": 11.752808280216787
+      "expected_value": 12.310307392268152
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -575,12 +575,12 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/models/B/mae_sgd",
-      "expected_value": 85908.94160265858
+      "expected_value": 79299.33166922693
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/models/B/weighted_heldout_r2",
-      "expected_value": 0.6342339597072718
+      "expected_value": 0.6814553246818553
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -590,37 +590,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/mae_b",
-      "expected_value": 85908.94160265858
+      "expected_value": 79299.33166922693
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/improvement_mae_a_minus_b",
-      "expected_value": 33250.7230738419
+      "expected_value": 39860.333007273555
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/percent_reduction",
-      "expected_value": 27.904344279679133
+      "expected_value": 33.451196019632995
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/improvement_ci95/0",
-      "expected_value": 31565.981588349423
+      "expected_value": 38081.98627455246
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/improvement_ci95/1",
-      "expected_value": 34944.45003541593
+      "expected_value": 41691.97602870647
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/percent_reduction_ci95/0",
-      "expected_value": 26.832423635517458
+      "expected_value": 32.32213624091321
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_baseline/comparisons/0/percent_reduction_ci95/1",
-      "expected_value": 29.013077935995014
+      "expected_value": 34.59843838600664
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -655,12 +655,12 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/models/D/mae_sgd",
-      "expected_value": 51672.91951099896
+      "expected_value": 51661.23655167866
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/models/D/weighted_heldout_r2",
-      "expected_value": 0.8598526291474184
+      "expected_value": 0.8599202506442344
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -670,37 +670,37 @@
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/mae_b",
-      "expected_value": 51672.91951099896
+      "expected_value": 51661.23655167866
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/improvement_mae_a_minus_b",
-      "expected_value": -0.5067766936845146
+      "expected_value": 11.176182626615628
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/percent_reduction",
-      "expected_value": -0.0009807490435763337
+      "expected_value": 0.02162891576997288
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/improvement_ci95/0",
-      "expected_value": -35.22086001578045
+      "expected_value": -29.4879675279426
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/improvement_ci95/1",
-      "expected_value": 33.638134732987766
+      "expected_value": 51.26286400310904
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/percent_reduction_ci95/0",
-      "expected_value": -0.06821103867206733
+      "expected_value": -0.05687580444991861
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
       "json_pointer": "/resale_adjusted/comparisons/0/percent_reduction_ci95/1",
-      "expected_value": 0.06472493909780393
+      "expected_value": 0.09878050152769352
     },
     {
       "source_file": "outputs/tables/economic_model_results__2024-2025.json",
@@ -805,12 +805,12 @@
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/current_source_counts/score_mean",
-      "expected_value": 4.00949466750427
+      "expected_value": 4.106732037404663
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/current_source_counts/score_median",
-      "expected_value": 4.241758241758242
+      "expected_value": 4.244897959183674
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
@@ -880,32 +880,32 @@
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/mean_difference_current_minus_historical",
-      "expected_value": -0.11837418140516506
+      "expected_value": -0.009956821653491068
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/mean_absolute_difference",
-      "expected_value": 0.12166006776240076
+      "expected_value": 0.013488165029977708
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/difference_sd_sample",
-      "expected_value": 0.3188604751658793
+      "expected_value": 0.12264885481246757
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/limits_of_agreement_lower",
-      "expected_value": -0.7433407127302885
+      "expected_value": -0.2503485770859275
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/limits_of_agreement_upper",
-      "expected_value": 0.5065923499199583
+      "expected_value": 0.23043493377894536
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/icc_A_1_two_way_absolute_agreement",
-      "expected_value": 0.9256227623171612
+      "expected_value": 0.9917063144141376
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
@@ -915,7 +915,7 @@
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
       "json_pointer": "/historical_comparison/display_band_changes",
-      "expected_value": 210
+      "expected_value": 95
     },
     {
       "source_file": "outputs/tables/reconstruction_stage_summary.json",
@@ -960,17 +960,17 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rental/building_count_by_shi_band/[4,5)",
-      "expected_value": 5064
+      "expected_value": 4976
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rental/building_count_by_shi_band/[5,6]",
-      "expected_value": 1348
+      "expected_value": 1445
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rental/building_count_by_shi_band/[3,4)",
-      "expected_value": 2551
+      "expected_value": 2542
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1000,17 +1000,17 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/resale/building_count_by_shi_band/[4,5)",
-      "expected_value": 4969
+      "expected_value": 4877
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/resale/building_count_by_shi_band/[5,6]",
-      "expected_value": 1330
+      "expected_value": 1430
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/resale/building_count_by_shi_band/[3,4)",
-      "expected_value": 2451
+      "expected_value": 2443
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1030,12 +1030,12 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/0/spearman_rho",
-      "expected_value": 0.5784643973912643
+      "expected_value": 0.5769801534667165
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/0/kendall_tau_b",
-      "expected_value": 0.42605219612772416
+      "expected_value": 0.42366046685616354
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1045,12 +1045,12 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/1/spearman_rho",
-      "expected_value": 0.5754842073426245
+      "expected_value": 0.5745169073328293
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/1/kendall_tau_b",
-      "expected_value": 0.41848209752067583
+      "expected_value": 0.41642312573466583
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1060,12 +1060,12 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/2/spearman_rho",
-      "expected_value": 0.6957206479564252
+      "expected_value": 0.7004918827194824
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/2/kendall_tau_b",
-      "expected_value": 0.5279062569841194
+      "expected_value": 0.5317162156211794
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1075,12 +1075,12 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/3/spearman_rho",
-      "expected_value": 0.697792821639884
+      "expected_value": 0.7032067419719147
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/3/kendall_tau_b",
-      "expected_value": 0.5283331300657252
+      "expected_value": 0.5328633228952184
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1090,12 +1090,12 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/4/spearman_rho",
-      "expected_value": -0.14254364664957325
+      "expected_value": -0.14494596999938372
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/4/kendall_tau_b",
-      "expected_value": -0.0941747205897484
+      "expected_value": -0.09508301878876436
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
@@ -1105,42 +1105,42 @@
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/5/spearman_rho",
-      "expected_value": -0.1458888451716771
+      "expected_value": -0.1479897369407708
     },
     {
       "source_file": "outputs/tables/descriptive_analysis_validation__2024-2025.json",
       "json_pointer": "/rank_associations/5/kendall_tau_b",
-      "expected_value": -0.09642134025605593
+      "expected_value": -0.09708335983193109
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/building_count",
-      "expected_value": 5064
+      "expected_value": 4976
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/source_record_count",
-      "expected_value": 36256
+      "expected_value": 35760
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_shi",
-      "expected_value": 4.3817557246
+      "expected_value": 4.3807534976
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_shi",
-      "expected_value": 4.4166666667
+      "expected_value": 4.4102564103
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_mean_outcome",
-      "expected_value": 3291.5171866071
+      "expected_value": 3291.0337225359
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_building_mean_outcome",
-      "expected_value": 3260.5555555556
+      "expected_value": 3260.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1155,7 +1155,7 @@
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_median_outcome",
-      "expected_value": 3341.9930884676
+      "expected_value": 3341.7952170418
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1175,87 +1175,87 @@
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/building_count",
-      "expected_value": 1348
+      "expected_value": 1445
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/source_record_count",
-      "expected_value": 6838
+      "expected_value": 7370
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_shi",
-      "expected_value": 5.0037091988
+      "expected_value": 5.5816923176
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_shi",
-      "expected_value": 5.0
+      "expected_value": 6.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_mean_outcome",
-      "expected_value": 3612.0282874794
+      "expected_value": 3590.4495167046
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_mean_outcome",
-      "expected_value": 3600.0
+      "expected_value": 3596.1538461538
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_mean_outcome",
-      "expected_value": 3331.8798076923
+      "expected_value": 3300.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_mean_outcome",
-      "expected_value": 3887.5
+      "expected_value": 3875.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_median_outcome",
-      "expected_value": 3651.6735905045
+      "expected_value": 3629.2290657439
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_median_outcome",
-      "expected_value": 3650.0
+      "expected_value": 3600.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_median_outcome",
-      "expected_value": 3400.0
+      "expected_value": 3350.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_median_outcome",
-      "expected_value": 4000.0
+      "expected_value": 3950.0
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/building_count",
-      "expected_value": 2551
+      "expected_value": 2542
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/source_record_count",
-      "expected_value": 28823
+      "expected_value": 28787
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_shi",
-      "expected_value": 3.311949523
+      "expected_value": 3.3115955509
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/median_shi",
-      "expected_value": 3.2903225806
+      "expected_value": 3.2928205128
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_mean_outcome",
-      "expected_value": 2871.0479890648
+      "expected_value": 2870.5417897829
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1270,12 +1270,12 @@
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_mean_outcome",
-      "expected_value": 3033.3333333333
+      "expected_value": 3032.9545454545
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_median_outcome",
-      "expected_value": 2907.1669933359
+      "expected_value": 2906.9563335956
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1290,7 +1290,7 @@
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_median_outcome",
-      "expected_value": 3047.0
+      "expected_value": 3028.75
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1305,7 +1305,7 @@
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
       "json_pointer": "/3/mean_shi",
-      "expected_value": 2.540330714
+      "expected_value": 2.5403979418
     },
     {
       "source_file": "outputs/tables/rent_shi_tier_summary__2024-2025.json",
@@ -1415,247 +1415,247 @@
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/building_count",
-      "expected_value": 4969
+      "expected_value": 4877
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/source_record_count",
-      "expected_value": 27158
+      "expected_value": 26786
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_shi",
-      "expected_value": 4.3829239393
+      "expected_value": 4.3820340269
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_shi",
-      "expected_value": 4.4193548387
+      "expected_value": 4.4125
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_mean_outcome",
-      "expected_value": 660543.1192130664
+      "expected_value": 657799.018132383
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_building_mean_outcome",
-      "expected_value": 630177.6
+      "expected_value": 628333.3333333334
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p25_building_mean_outcome",
-      "expected_value": 571500.0
+      "expected_value": 570000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p75_building_mean_outcome",
-      "expected_value": 713836.0
+      "expected_value": 710000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_median_outcome",
-      "expected_value": 659378.5743489636
+      "expected_value": 656449.6354193152
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_building_median_outcome",
-      "expected_value": 628000.0
+      "expected_value": 627500.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p25_building_median_outcome",
-      "expected_value": 567500.0
+      "expected_value": 565000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p75_building_median_outcome",
-      "expected_value": 715000.0
+      "expected_value": 710000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_mean_price_per_sqm",
-      "expected_value": 6278.1199712557
+      "expected_value": 6288.4832912465
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_building_mean_price_per_sqm",
-      "expected_value": 5926.8713397175
+      "expected_value": 5938.1098750976
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p25_building_mean_price_per_sqm",
-      "expected_value": 5471.4573578183
+      "expected_value": 5473.8311675416
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p75_building_mean_price_per_sqm",
-      "expected_value": 6726.41911838
+      "expected_value": 6742.2131482418
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/mean_building_median_price_per_sqm",
-      "expected_value": 6286.9945899449
+      "expected_value": 6297.5532922377
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/median_building_median_price_per_sqm",
-      "expected_value": 5929.203539823
+      "expected_value": 5937.5
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p25_building_median_price_per_sqm",
-      "expected_value": 5471.6683283483
+      "expected_value": 5475.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/0/p75_building_median_price_per_sqm",
-      "expected_value": 6727.8047387953
+      "expected_value": 6747.311827957
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/building_count",
-      "expected_value": 1330
+      "expected_value": 1430
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/source_record_count",
-      "expected_value": 4652
+      "expected_value": 5050
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_shi",
-      "expected_value": 5.0037593985
+      "expected_value": 5.5930565074
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_shi",
-      "expected_value": 5.0
+      "expected_value": 6.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_mean_outcome",
-      "expected_value": 841388.4656872377
+      "expected_value": 837952.9008639542
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_mean_outcome",
-      "expected_value": 831583.3333333333
+      "expected_value": 828837.5
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_mean_outcome",
-      "expected_value": 733208.3333333333
+      "expected_value": 728062.5
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_mean_outcome",
-      "expected_value": 929533.3333333334
+      "expected_value": 927947.2
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_median_outcome",
-      "expected_value": 841433.3240601504
+      "expected_value": 838517.1531468532
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_median_outcome",
-      "expected_value": 831150.0
+      "expected_value": 828944.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_median_outcome",
-      "expected_value": 737500.0
+      "expected_value": 730000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_median_outcome",
-      "expected_value": 931500.0
+      "expected_value": 933625.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_mean_price_per_sqm",
-      "expected_value": 6210.1367589557
+      "expected_value": 6178.6083843926
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_mean_price_per_sqm",
-      "expected_value": 6022.3546598693
+      "expected_value": 5987.2374188611
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_mean_price_per_sqm",
-      "expected_value": 5616.154915462
+      "expected_value": 5594.9314609116
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_mean_price_per_sqm",
-      "expected_value": 6608.7143404541
+      "expected_value": 6571.1805976813
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/mean_building_median_price_per_sqm",
-      "expected_value": 6211.1260476555
+      "expected_value": 6179.4757343786
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/median_building_median_price_per_sqm",
-      "expected_value": 6012.4039339656
+      "expected_value": 5985.6584764059
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p25_building_median_price_per_sqm",
-      "expected_value": 5622.7864678564
+      "expected_value": 5594.7554697555
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/1/p75_building_median_price_per_sqm",
-      "expected_value": 6628.5811822227
+      "expected_value": 6587.9779801325
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/building_count",
-      "expected_value": 2451
+      "expected_value": 2443
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/source_record_count",
-      "expected_value": 17199
+      "expected_value": 17173
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_shi",
-      "expected_value": 3.3119835039
+      "expected_value": 3.3117895198
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/median_shi",
-      "expected_value": 3.2866242038
+      "expected_value": 3.2909090909
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_mean_outcome",
-      "expected_value": 500300.0475555519
+      "expected_value": 499861.799273567
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/median_building_mean_outcome",
-      "expected_value": 461800.0
+      "expected_value": 461600.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p25_building_mean_outcome",
-      "expected_value": 415855.5
+      "expected_value": 415661.1428571428
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_mean_outcome",
-      "expected_value": 545450.0
+      "expected_value": 545000.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_median_outcome",
-      "expected_value": 494995.0104039168
+      "expected_value": 494558.6682357757
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
@@ -1665,52 +1665,52 @@
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p25_building_median_outcome",
-      "expected_value": 407500.0
+      "expected_value": 407222.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_median_outcome",
-      "expected_value": 540000.0
+      "expected_value": 539500.0
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_mean_price_per_sqm",
-      "expected_value": 6484.5373333653
+      "expected_value": 6485.7625990865
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/median_building_mean_price_per_sqm",
-      "expected_value": 6103.6036036036
+      "expected_value": 6098.6733001658
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p25_building_mean_price_per_sqm",
-      "expected_value": 5698.2941131928
+      "expected_value": 5696.9973972293
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_mean_price_per_sqm",
-      "expected_value": 6830.1612049616
+      "expected_value": 6837.2469955724
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/mean_building_median_price_per_sqm",
-      "expected_value": 6486.5593604826
+      "expected_value": 6487.766290199
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/median_building_median_price_per_sqm",
-      "expected_value": 6103.2388663968
+      "expected_value": 6102.9411764706
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p25_building_median_price_per_sqm",
-      "expected_value": 5690.7747631452
+      "expected_value": 5688.823815542
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/2/p75_building_median_price_per_sqm",
-      "expected_value": 6836.6708385482
+      "expected_value": 6838.3538899431
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
@@ -1725,7 +1725,7 @@
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
       "json_pointer": "/3/mean_shi",
-      "expected_value": 2.5396345394
+      "expected_value": 2.5396900812
     },
     {
       "source_file": "outputs/tables/resale_shi_tier_summary__2024-2025.json",
@@ -1920,12 +1920,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/0/spearman_rho",
-      "expected_value": 0.5784643974
+      "expected_value": 0.5769801535
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/0/kendall_tau_b",
-      "expected_value": 0.4260521961
+      "expected_value": 0.4236604669
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
@@ -1935,12 +1935,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/1/spearman_rho",
-      "expected_value": 0.5754842073
+      "expected_value": 0.5745169073
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/1/kendall_tau_b",
-      "expected_value": 0.4184820975
+      "expected_value": 0.4164231257
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
@@ -1950,12 +1950,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/2/spearman_rho",
-      "expected_value": 0.695720648
+      "expected_value": 0.7004918827
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/2/kendall_tau_b",
-      "expected_value": 0.527906257
+      "expected_value": 0.5317162156
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
@@ -1965,12 +1965,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/3/spearman_rho",
-      "expected_value": 0.6977928216
+      "expected_value": 0.703206742
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/3/kendall_tau_b",
-      "expected_value": 0.5283331301
+      "expected_value": 0.5328633229
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
@@ -1980,12 +1980,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/4/spearman_rho",
-      "expected_value": -0.1425436466
+      "expected_value": -0.14494597
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/4/kendall_tau_b",
-      "expected_value": -0.0941747206
+      "expected_value": -0.0950830188
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
@@ -1995,12 +1995,12 @@
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/5/spearman_rho",
-      "expected_value": -0.1458888452
+      "expected_value": -0.1479897369
     },
     {
       "source_file": "outputs/tables/shi_economic_rank_associations__2024-2025.json",
       "json_pointer": "/5/kendall_tau_b",
-      "expected_value": -0.0964213403
+      "expected_value": -0.0970833598
     }
   ]
 }

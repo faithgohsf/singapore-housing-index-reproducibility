@@ -16,7 +16,7 @@ ROOM_WEIGHTS: dict[str, int] = {
     "3room_sold": 3,
     "4room_sold": 4,
     "5room_sold": 5,
-    "exec_sold": 5,
+    "exec_sold": 6,
     "multigen_sold": 6,
     "studio_apartment_sold": 1,
     "1room_rental": 1,
@@ -25,11 +25,15 @@ ROOM_WEIGHTS: dict[str, int] = {
     "other_room_rental": 4,
 }
 
+# Explicit sensitivity retaining the superseded executive weight.
+EXECUTIVE_WEIGHT_5_WEIGHTS = {**ROOM_WEIGHTS, "exec_sold": 5}
+
 # Historical formula described in the 2021 article before its recommended
 # corrections: studio=3 and other_room_rental contributes 0 to the numerator.
 # The published total dwelling count remains the denominator, reproducing the
 # known historical treatment while keeping this variant explicit.
 LEGACY_2021_WEIGHTS = {**ROOM_WEIGHTS, "studio_apartment_sold": 3, "other_room_rental": 0}
+LEGACY_EXECUTIVE_WEIGHT_5_WEIGHTS = {**LEGACY_2021_WEIGHTS, "exec_sold": 5}
 
 _REQUIRED_ADDRESS_COLUMNS = ("blk_no", "street", "residential")
 _REQUIRED_COMPOSITION_COLUMNS = ("total_dwelling_units", *ROOM_WEIGHTS)
@@ -176,11 +180,12 @@ def compute_shi(buildings: pd.DataFrame, formula: str = "recommended") -> pd.Dat
 
     ``recommended`` uses the corrections recommended by Lim et al. (2021).
     ``legacy_2021`` retains the historical formula variant for controlled
-    same-input formula comparisons. Both require complete, reconciled counts.
+    same-input formula comparisons. All variants require complete, reconciled counts.
+    ``executive_weight_5`` preserves the superseded mapping for sensitivity.
     """
-    if formula not in {"recommended", "legacy_2021"}:
-        raise ValueError("formula must be 'recommended' or 'legacy_2021'")
-    weights: Mapping[str, int] = ROOM_WEIGHTS if formula == "recommended" else LEGACY_2021_WEIGHTS
+    if formula not in {"recommended", "legacy_2021", "executive_weight_5", "legacy_2021_executive_weight_5"}:
+        raise ValueError("formula must be recommended, legacy_2021, executive_weight_5, or legacy_2021_executive_weight_5")
+    weights: Mapping[str, int] = {"recommended": ROOM_WEIGHTS, "legacy_2021": LEGACY_2021_WEIGHTS, "executive_weight_5": EXECUTIVE_WEIGHT_5_WEIGHTS, "legacy_2021_executive_weight_5": LEGACY_EXECUTIVE_WEIGHT_5_WEIGHTS}[formula]
     required = ["total_dwelling_units", *weights]
     missing = [c for c in required if c not in buildings]
     if missing:

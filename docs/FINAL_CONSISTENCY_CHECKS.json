@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "portable_prediction_files": [
+    {
+      "file": "rental_oof_predictions.csv",
+      "rows": 57978,
+      "status": "passed"
+    },
+    {
+      "file": "resale_adjusted_oof_predictions.csv",
+      "rows": 43125,
+      "status": "passed"
+    },
+    {
+      "file": "resale_baseline_oof_predictions.csv",
+      "rows": 43141,
+      "status": "passed"
+    },
+    {
+      "file": "sensitivity_2025_oof_predictions.csv",
+      "rows": 30049,
+      "status": "passed"
+    },
+    {
+      "file": "sensitivity_equal_record_weights_oof_predictions.csv",
+      "rows": 57978,
+      "status": "passed"
+    },
+    {
+      "file": "sensitivity_min3_oof_predictions.csv",
+      "rows": 56009,
+      "status": "passed"
+    },
+    {
+      "file": "sensitivity_spatial_holdout_oof_predictions.csv",
+      "rows": 57978,
+      "status": "passed"
+    }
+  ],
+  "release_building_rows": 10817,
+  "release_scores_match_primary": true,
+  "abstract_word_count": 264,
+  "author_and_future_release_placeholders_preserved": 11,
+  "reference_list_unchanged": true,
+  "word_model_table_matches_current_csv": true,
+  "source_frozen_hashes_checked": 5,
+  "rendered_manuscript_pages": 24,
+  "render_copy_sha256": "4bf615433494da3d0d0a96081728e48f71ecac2096e6b6a26428c5e8f8393805",
+  "manuscript_sha256": "4bf615433494da3d0d0a96081728e48f71ecac2096e6b6a26428c5e8f8393805"
+}

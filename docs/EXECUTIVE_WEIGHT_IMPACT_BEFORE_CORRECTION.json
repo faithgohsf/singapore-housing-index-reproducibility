@@ -1,0 +1,59 @@
+{
+  "denominator": "All 10,817 valid residential buildings in the same frozen source snapshot",
+  "all_buildings": 10817,
+  "affected_buildings": 1707,
+  "affected_percentage": 15.780715540353148,
+  "all_buildings_absolute_difference": {
+    "mean": 0.09723736990039364,
+    "median": 0.0,
+    "max": 1.0
+  },
+  "affected_buildings_absolute_difference": {
+    "mean": 0.6161784594098172,
+    "median": 1.0,
+    "max": 1.0
+  },
+  "display_band_changes": 118,
+  "old_historical_agreement": {
+    "hdb_residential_buildings": 10817,
+    "current_valid_shi_buildings": 10817,
+    "historical_address_matched_buildings": 9598,
+    "historical_unmatched_buildings": 1219,
+    "historical_conflicting_score_buildings": 4,
+    "historical_ambiguous_postcode_buildings": 0,
+    "historical_multicode_buildings": 4,
+    "paired_buildings": 9594,
+    "mean_difference_current_minus_historical": -0.11837418140516506,
+    "mean_absolute_difference": 0.12166006776240076,
+    "difference_sd_sample": 0.3188604751658793,
+    "limits_of_agreement_lower": -0.7433407127302885,
+    "limits_of_agreement_upper": 0.5065923499199583,
+    "icc_A_1_two_way_absolute_agreement": 0.9256227623171612,
+    "display_band_comparable_buildings": 9592,
+    "display_band_changes": 210,
+    "display_band_change_basis": "protocol SHI display bands; continuous scores retained"
+  },
+  "published_definition_historical_agreement": {
+    "hdb_residential_buildings": 10817,
+    "current_valid_shi_buildings": 10817,
+    "historical_address_matched_buildings": 9598,
+    "historical_unmatched_buildings": 1219,
+    "historical_conflicting_score_buildings": 4,
+    "historical_ambiguous_postcode_buildings": 0,
+    "historical_multicode_buildings": 4,
+    "paired_buildings": 9594,
+    "mean_difference_current_minus_historical": -0.009956821653491068,
+    "mean_absolute_difference": 0.013488165029977708,
+    "difference_sd_sample": 0.12264885481246757,
+    "limits_of_agreement_lower": -0.2503485770859275,
+    "limits_of_agreement_upper": 0.23043493377894536,
+    "icc_A_1_two_way_absolute_agreement": 0.9917063144141376,
+    "display_band_comparable_buildings": 9592,
+    "display_band_changes": 95,
+    "display_band_change_basis": "protocol SHI display bands; continuous scores retained"
+  },
+  "source_sha256": "d528ea2d6fc3f57ab4c8199ed15ea5eaac0109fe659e09ef91910dfe417af2eb",
+  "only_changed_field": "exec_sold: 5 -> 6; ordinary 5room_sold remains 5; multigen_sold remains 6",
+  "identity_check": "SHI(exec6) - SHI(exec5) = exec_sold / total_dwelling_units",
+  "primary_files_not_yet_modified": true
+}

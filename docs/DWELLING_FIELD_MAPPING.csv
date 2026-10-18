@@ -1,0 +1,13 @@
+field,previous_weight,primary_weight,decision
+1room_sold,1,1,Unchanged
+2room_sold,2,2,Unchanged
+3room_sold,3,3,Unchanged
+4room_sold,4,4,Unchanged
+5room_sold,5,5,Unchanged
+exec_sold,5,6,Corrected per published larger-flat rule
+multigen_sold,6,6,Unchanged
+studio_apartment_sold,1,1,Unchanged
+1room_rental,1,1,Unchanged
+2room_rental,2,2,Unchanged
+3room_rental,3,3,Unchanged
+other_room_rental,4,4,Unchanged

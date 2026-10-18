@@ -1,0 +1,71 @@
+analysis,comparison,metric,executive_weight_5,executive_weight_6
+Historical agreement,hdb_residential_buildings,value,10817,10817
+Historical agreement,current_valid_shi_buildings,value,10817,10817
+Historical agreement,historical_address_matched_buildings,value,9598,9598
+Historical agreement,historical_unmatched_buildings,value,1219,1219
+Historical agreement,historical_conflicting_score_buildings,value,4,4
+Historical agreement,historical_ambiguous_postcode_buildings,value,0,0
+Historical agreement,historical_multicode_buildings,value,4,4
+Historical agreement,paired_buildings,value,9594,9594
+Historical agreement,mean_difference_current_minus_historical,value,-0.11837418140516506,-0.009956821653491068
+Historical agreement,mean_absolute_difference,value,0.12166006776240076,0.013488165029977708
+Historical agreement,difference_sd_sample,value,0.3188604751658793,0.12264885481246757
+Historical agreement,limits_of_agreement_lower,value,-0.7433407127302885,-0.2503485770859275
+Historical agreement,limits_of_agreement_upper,value,0.5065923499199583,0.23043493377894536
+Historical agreement,icc_A_1_two_way_absolute_agreement,value,0.9256227623171612,0.9917063144141376
+Historical agreement,display_band_comparable_buildings,value,9592,9592
+Historical agreement,display_band_changes,value,210,95
+rental,A/B,mae_a,466.15110976162975,466.15110976162975
+rental,A/B,mae_b,404.88825953735267,402.26977961512756
+rental,A/B,improvement_mae_a_minus_b,61.26285022427709,63.881330146502194
+rental,A/B,percent_reduction,13.142272739756933,13.703996152485498
+rental,A/B,improvement_ci95,"[57.51513146464083, 65.33056044337548]","[60.060043732007394, 68.05770761779334]"
+rental,A/B,percent_reduction_ci95,"[12.410967492068847, 13.930680954325204]","[12.946354992922755, 14.528144963055562]"
+rental,C/D,mae_a,374.87451985990367,374.87451985990367
+rental,C/D,mae_b,374.78830622727145,374.83364446793155
+rental,C/D,improvement_mae_a_minus_b,0.08621363263222293,0.04087539197212209
+rental,C/D,percent_reduction,0.022997997480448198,0.010903753071133735
+rental,C/D,improvement_ci95,"[-0.15072493303102305, 0.32036397454315096]","[-0.19012563952679642, 0.2809724610425475]"
+rental,C/D,percent_reduction_ci95,"[-0.040372259143302384, 0.08535523756311478]","[-0.05048083612930481, 0.07481990129354317]"
+rental,B/C,mae_a,404.88825953735267,402.26977961512756
+rental,B/C,mae_b,374.87451985990367,374.87451985990367
+rental,B/C,improvement_mae_a_minus_b,30.013739677448996,27.39525975522389
+rental,B/C,percent_reduction,7.412845141952084,6.810170970693935
+rental,B/C,improvement_ci95,"[27.57434188741811, 32.5941042690271]","[25.08271748500453, 29.726273198797543]"
+rental,B/C,percent_reduction_ci95,"[6.840846745152044, 8.0215355304579]","[6.25985624079987, 7.358245315393107]"
+resale_baseline,A/B,mae_a,119159.66467650048,119159.66467650048
+resale_baseline,A/B,mae_b,85908.94160265858,79299.33166922693
+resale_baseline,A/B,improvement_mae_a_minus_b,33250.7230738419,39860.333007273555
+resale_baseline,A/B,percent_reduction,27.904344279679133,33.451196019632995
+resale_baseline,A/B,improvement_ci95,"[31565.981588349423, 34944.45003541593]","[38081.98627455246, 41691.97602870647]"
+resale_baseline,A/B,percent_reduction_ci95,"[26.832423635517458, 29.013077935995014]","[32.32213624091321, 34.59843838600664]"
+resale_adjusted,C/D,mae_a,51672.412734305275,51672.412734305275
+resale_adjusted,C/D,mae_b,51672.91951099896,51661.23655167866
+resale_adjusted,C/D,improvement_mae_a_minus_b,-0.5067766936845146,11.176182626615628
+resale_adjusted,C/D,percent_reduction,-0.0009807490435763337,0.02162891576997288
+resale_adjusted,C/D,improvement_ci95,"[-35.22086001578045, 33.638134732987766]","[-29.4879675279426, 51.26286400310904]"
+resale_adjusted,C/D,percent_reduction_ci95,"[-0.06821103867206733, 0.06472493909780393]","[-0.05687580444991861, 0.09878050152769352]"
+sensitivity_2025,A/B,mae_a,450.6981359153749,450.6981359153749
+sensitivity_2025,A/B,mae_b,387.2124953543526,384.27764077910666
+sensitivity_2025,A/B,improvement_mae_a_minus_b,63.48564056102231,66.42049513626824
+sensitivity_2025,A/B,percent_reduction,14.086066815448879,14.737246472379388
+sensitivity_2025,A/B,improvement_ci95,"[59.3506913208542, 67.67477696173526]","[61.983149335347626, 70.86029336237657]"
+sensitivity_2025,A/B,percent_reduction_ci95,"[13.254993033080002, 14.919141023246938]","[13.835169200812716, 15.614161250057956]"
+sensitivity_min3,A/B,mae_a,450.58696320454663,450.58696320454663
+sensitivity_min3,A/B,mae_b,393.55469329121377,391.50099943866013
+sensitivity_min3,A/B,improvement_mae_a_minus_b,57.03226991333287,59.085963765886504
+sensitivity_min3,A/B,percent_reduction,12.657328012271568,13.113109919042214
+sensitivity_min3,A/B,improvement_ci95,"[53.70846196791759, 60.60627450929332]","[55.54066526554779, 62.782813643816006]"
+sensitivity_min3,A/B,percent_reduction_ci95,"[11.990040950919187, 13.364145431034519]","[12.422066108475553, 13.822675425851887]"
+sensitivity_equal_record_weights,A/B,mae_a,445.08536275911985,445.08536275911985
+sensitivity_equal_record_weights,A/B,mae_b,390.8529745639401,389.42339288224304
+sensitivity_equal_record_weights,A/B,improvement_mae_a_minus_b,54.23238819517974,55.66196987687681
+sensitivity_equal_record_weights,A/B,percent_reduction,12.184716176463054,12.505908873709933
+sensitivity_equal_record_weights,A/B,improvement_ci95,"[50.79060874142029, 57.95306382934206]","[52.22146153788272, 59.40208008884834]"
+sensitivity_equal_record_weights,A/B,percent_reduction_ci95,"[11.490835865637806, 12.928016519425467]","[11.79968091346128, 13.228932569378628]"
+sensitivity_spatial_holdout,A/B,mae_a,1124.2338223356235,1124.2338223356235
+sensitivity_spatial_holdout,A/B,mae_b,997.6038971251809,991.3911194419643
+sensitivity_spatial_holdout,A/B,improvement_mae_a_minus_b,126.6299252104426,132.84270289365918
+sensitivity_spatial_holdout,A/B,percent_reduction,11.263664434802878,11.816287702292678
+sensitivity_spatial_holdout,A/B,improvement_ci95,"[120.53346003028835, 132.72433782038365]","[126.58440696507573, 139.00652048636073]"
+sensitivity_spatial_holdout,A/B,percent_reduction_ci95,"[10.766307527023491, 11.752808280216787]","[11.322036217355826, 12.310307392268152]"

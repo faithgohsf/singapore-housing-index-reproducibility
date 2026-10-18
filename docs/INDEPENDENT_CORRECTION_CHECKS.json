@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "file": "rental_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "file": "resale_baseline_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0
+      }
+    },
+    {
+      "file": "resale_adjusted_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "C": 0.0
+      }
+    },
+    {
+      "file": "sensitivity_2025_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0
+      }
+    },
+    {
+      "file": "sensitivity_min3_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0
+      }
+    },
+    {
+      "file": "sensitivity_equal_record_weights_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0
+      }
+    },
+    {
+      "file": "sensitivity_spatial_holdout_oof_predictions.csv",
+      "source_ids_building_ids_folds_outcomes_identical": true,
+      "models_without_shi_max_abs_change": {
+        "A": 0.0
+      }
+    },
+    {
+      "building_scores_independently_recomputed": 10817,
+      "historical_pairs": 9594,
+      "icc_independent": 0.9917063144141376,
+      "descriptive_rank_statistics_recomputed": true
+    }
+  ],
+  "frozen_input_hashes_unchanged": true,
+  "failures": []
+}

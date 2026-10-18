@@ -2,7 +2,7 @@
 
 **Authoritative SHI research repository.** Use this repository for all future code and reproducibility updates. The private `singapore-housing-index-validation` repository is a redundant README-only scaffold retained for history. See [repository authority and comparison](docs/REPOSITORY_AUTHORITY.md). Both repositories remain private; no public release is authorised.
 
-Version 0.1.0-rc.2. This is a standalone candidate repository, separate from the development workspace. Original project code is MIT licensed by user approval on 17 October 2026. No public software release or Zenodo DOI exists yet. Do not describe this candidate as a published repository.
+Version 0.1.0-rc.3-executive6. This is a standalone candidate repository, separate from the development workspace. Original project code is MIT licensed by user approval on 17 October 2026. No public software release or Zenodo DOI exists yet. Do not describe this candidate as a published repository.
 
 ## Setup
 
@@ -68,3 +68,10 @@ CSV needs no optional Excel package. For completed XLSX files install requiremen
 The user authorises PRIVATE upload to https://github.com/fattygohwhere/singapore-housing-index-reproducibility. This is not a publicly accessible release. Never change visibility, create a public release or publish a Zenodo record without a future explicit user instruction. MIT is approved for original code; source datasets retain their separate terms.
 
 All seven original targeted location flags have documented address-point resolutions in validation_cases/location_resolution/. They do not change frozen coordinates, the published model sample or historical-score conflicts. The completed reviewer used Street View and supplementary property websites including PropertyGuru; case-specific site-use logs were not collected. No repeat manual classification is required.
+
+
+## Executive-flat correction (18 October 2026)
+
+The primary published-definition reconstruction assigns `exec_sold` weight 6, ordinary `5room_sold` weight 5, and `multigen_sold` weight 6. The previous executive=5 mapping is retained as a named sensitivity, not selected according to model performance. See `docs/EXECUTIVE_WEIGHT_CORRECTION.md`.
+
+To reproduce that alternative, use a **separate copy** of the repository and frozen inputs, then run `python scripts/run_pipeline.py --profile reproducibility --executive-weight 5`. This produces outputs in that separate copy and preserves primary results. All other procedures and inputs remain fixed.

@@ -78,5 +78,31 @@ def test_invalid_composition_yields_reason_not_partial_score(overrides, reason):
     assert reason in scored.iloc[0].shi_invalid_reason
 
 
+
+@pytest.mark.parametrize("field,expected", [("5room_sold", 5), ("exec_sold", 6), ("multigen_sold", 6)])
+def test_distinguish_five_room_executive_multigeneration(field, expected):
+    row = _property_row(**{k: "0" for k in ROOM_WEIGHTS})
+    row.update({"total_dwelling_units": "10", field: "10"})
+    buildings, _ = build_hdb_buildings(pd.DataFrame([row]))
+    assert compute_shi(buildings).iloc[0].shi == expected
+
+def test_mixed_executive_and_alternative():
+    row = _property_row(**{k: "0" for k in ROOM_WEIGHTS})
+    row.update({"total_dwelling_units": "10", "exec_sold": "4", "5room_sold": "3", "4room_sold": "3"})
+    buildings, _ = build_hdb_buildings(pd.DataFrame([row]))
+    primary = compute_shi(buildings).iloc[0]
+    alternative = compute_shi(buildings, "executive_weight_5").iloc[0]
+    assert primary.shi == pytest.approx(5.1)
+    assert alternative.shi == pytest.approx(4.7)
+    assert primary.shi-alternative.shi == pytest.approx(4/10)
+    assert compute_shi(buildings, "legacy_2021").iloc[0].shi == pytest.approx(5.1)
+    assert compute_shi(buildings, "legacy_2021_executive_weight_5").iloc[0].shi == pytest.approx(4.7)
+
+def test_executive_mapping_does_not_rescue_incomplete_counts():
+    buildings, _ = build_hdb_buildings(pd.DataFrame([_property_row(**{"exec_sold": ""})]))
+    for formula in ["recommended", "executive_weight_5"]:
+        scored = compute_shi(buildings, formula).iloc[0]
+        assert scored.shi_status == "invalid" and pd.isna(scored.shi)
+
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-q"]))

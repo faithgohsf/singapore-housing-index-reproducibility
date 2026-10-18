@@ -75,8 +75,9 @@ STAGES = [
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--profile", choices=["workspace", "reproducibility"], default="workspace", help="Reproducibility profile verifies frozen inputs and omits internal review-workbook checks.")
+    parser.add_argument("--executive-weight", type=int, choices=[5, 6], default=6, help="6: corrected primary; 5: alternative sensitivity. Run alternatives only in a separate copy to preserve primary outputs.")
     args = parser.parse_args(argv)
-    stages = list(STAGES)
+    stages = [(label, script_args + ["--executive-weight", str(args.executive_weight)] if script_args and script_args[0] == "scripts/run_reconstruction_stage.py" else script_args, outputs) for label, script_args, outputs in STAGES]
     if args.profile == "reproducibility":
         stages.insert(0, ("Verify frozen reproduction inputs", ["scripts/stage_frozen_inputs.py", "--check"], []))
         stages = [(label, script_args + ["--skip-review-workbooks"] if script_args and script_args[0] == "scripts/validate_release_outputs.py" else script_args, outputs) for label, script_args, outputs in stages]

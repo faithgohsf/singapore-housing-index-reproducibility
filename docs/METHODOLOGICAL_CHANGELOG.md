@@ -15,3 +15,5 @@
 
 
 18 October 2026: compared both private repositories; designated singapore-housing-index-reproducibility authoritative; preserved the original validation-scaffold README and initial commit reference; archived the redundant private scaffold after verification. No code/input/method/result change.
+
+18 October 2026: corrected only exec_sold from weight 5 to 6 after checking the published larger-flat rule and distinct source fields; old weight-5 code/results archived and retained as sensitivity. Source snapshots and modelling procedures unchanged; full dependent rerun and independent checks recorded in Executive_Weight_Correction__2026-10-18. Completed review case IDs/buildings frozen to prevent reassignment after historical-difference reranking.

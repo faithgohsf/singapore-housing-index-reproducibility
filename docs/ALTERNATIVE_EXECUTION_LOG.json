@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "alternative_weight5_pipeline",
+    "command": [
+      "python",
+      "scripts/run_pipeline.py",
+      "--profile",
+      "reproducibility",
+      "--executive-weight",
+      "5"
+    ],
+    "exit_status": 0,
+    "seconds": 108.68526629172266,
+    "cwd": "independent executive-5 checkout"
+  },
+  {
+    "stage": "alternative_weight5_references",
+    "command": [
+      "python",
+      "scripts/verify_reference_results.py"
+    ],
+    "exit_status": 0,
+    "seconds": 0.05542662553489208,
+    "cwd": "independent executive-5 checkout"
+  }
+]

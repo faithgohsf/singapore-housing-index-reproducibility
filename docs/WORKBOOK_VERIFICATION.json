@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "building_rows": 10817,
+  "changed_cells": 3417,
+  "changed_shi_cells": 1707,
+  "other_data_cells_unchanged": true,
+  "identifiers_economic_fields_and_postal_strings_preserved": true,
+  "previous_workbook": "02_RESEARCH_WORKSPACE/Archive/Superseded_Analyses/Executive_Weight_5__2026-10-18/SHI_Reconstructed_Building_Dataset__archived_pre_correction.xlsx"
+}
